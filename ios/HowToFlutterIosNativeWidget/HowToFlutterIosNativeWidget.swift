@@ -50,7 +50,7 @@ struct HowToFlutterIosNativeWidgetEntryView : View {
     var entry: Provider.Entry
 
     var body: some View {
-        Text(entry.date, style: .time)
+        Text(entry.widgetData?.text ?? "Tap to set message.")
     }
 }
 
