@@ -60,7 +60,7 @@ class _WidgetContentPageState extends State<WidgetContentPage> {
 
   Widget _buildTextField() {
     return SizedBox(
-      width: 250,
+      width: 300,
       child: TextField(
         controller: _textController,
         decoration: InputDecoration(
